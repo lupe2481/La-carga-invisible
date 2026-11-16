@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>La carga invisible · La Salle México</title>
+  <meta name="description" content="Carga académica y malestar emocional en 102 estudiantes de la Universidad La Salle México, comparados con EUROSTUDENT 8.">
+  <meta name="theme-color" content="#0B0B0B">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;700&family=Unbounded:wght@500;700;800&display=swap" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;700&family=Unbounded:wght@500;700;800&display=swap"></noscript>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+  <script defer src="main.js"></script>
+</head>
+<body>
+  <a class="skip" href="#s2">Saltar al contenido</a>
+
+  <!-- Patrones compartidos por todas las gráficas -->
+  <svg class="defs" width="0" height="0" aria-hidden="true" focusable="false">
+    <defs>
+      <pattern id="pat-ans" patternUnits="userSpaceOnUse" width="7" height="7" patternTransform="rotate(45)">
+        <rect width="7" height="7" fill="#F06AB5"/>
+        <line x1="0" y1="0" x2="0" y2="7" stroke="#000" stroke-opacity=".35" stroke-width="2.6"/>
+      </pattern>
+      <pattern id="pat-dep" patternUnits="userSpaceOnUse" width="6" height="6">
+        <rect width="6" height="6" fill="#4C8DF6"/>
+        <circle cx="3" cy="3" r="1.25" fill="#000" fill-opacity=".45"/>
+      </pattern>
+    </defs>
+  </svg>
+
+  <header class="topbar" id="top">
+    <div class="wrap topbar__in">
+      <a class="brand" href="#s1"><span class="badge badge--xs badge--yellow" data-points="12" aria-hidden="true"></span>La Salle</a>
+      <nav class="topnav mono" aria-label="Secciones">
+        <a href="#s2">Panorama</a><a href="#s3">Carga</a><a href="#s4">Facultades</a><a href="#s5">Europa</a><a href="#s7">Metodología</a>
+      </nav>
+      <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="menu" aria-label="Abrir menú de secciones">
+        <span></span><span></span>
+      </button>
+    </div>
+    <nav class="menu" id="menu" hidden aria-label="Secciones (móvil)">
+      <ol class="wrap">
+        <li><a href="#s1">01 · Inicio</a></li>
+        <li><a href="#s2">02 · Panorama general</a></li>
+        <li><a href="#s3">03 · Carga académica</a></li>
+        <li><a href="#s4">04 · Facultades</a></li>
+        <li><a href="#s5">05 · Comparación con Europa</a></li>
+        <li><a href="#s6">06 · Interpretación</a></li>
+        <li><a href="#s7">07 · Conclusiones y metodología</a></li>
+      </ol>
+    </nav>
+  </header>
+
+  <nav class="progress" aria-label="Progreso de lectura">
+    <ol id="progress"></ol>
+  </nav>
+
+  <main>
+    <!-- 01 HERO -->
+    <section id="s1" class="sec hero" data-theme="dark" data-title="Inicio" aria-labelledby="h1">
+      <div class="hero__wrap">
+        <div class="panel panel--light hero__panel" data-cut="br" data-theme="light">
+          <div class="badge badge--lg badge--pink hero__badge" data-points="14">
+            <p class="badge__t"><b data-v="withDistress">83</b><small>de <span data-v="n">102</span></small></p>
+          </div>
+          <p class="kicker mono">Encuesta estudiantil · La Salle México · 2026</p>
+          <h1 id="h1" class="hero__title">La carga<br>invisible</h1>
+          <p class="hero__sub">Carga académica y malestar emocional en <span data-v="n">102</span> estudiantes de La Salle México.</p>
+
+          <ul class="hero__tags" aria-label="Temas">
+            <li class="tag" style="--r:-8deg">Carga académica</li>
+            <li class="tag" style="--r:9deg">Estrés</li>
+            <li class="tag" style="--r:5deg">Facultades</li>
+            <li class="tag" style="--r:12deg">Europa</li>
+          </ul>
+
+          <div class="bubble hero__bubble">
+            <p><b><span data-v="withDistress">83</span> de <span data-v="n">102</span></b><br><span class="mono">reportan malestar emocional</span></p>
+          </div>
+
+          <a class="hero__go" href="#s2">Explorar<br>resultados <span class="hero__arrow" aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 02 PANORAMA -->
+    <section id="s2" class="sec" data-theme="dark" data-title="Panorama general" aria-labelledby="h2">
+      <div class="wrap">
+        <div class="sec-head reveal">
+          <div>
+            <p class="kicker mono">02 · Panorama general</p>
+            <h2 id="h2" class="h2">8 de cada 10<br><span class="y">reportan malestar</span></h2>
+          </div>
+          <figure class="star-badge">
+            <svg id="star" viewBox="-300 -300 600 600" role="img" aria-label="Estrella de 102 picos: cada pico es un estudiante. 40 estrés, 33 ansiedad, 10 síntomas depresivos, 16 sin malestar y 3 sin respuesta válida."></svg>
+            <figcaption class="note mono">1 pico = 1 estudiante</figcaption>
+            <div id="starTable"></div>
+          </figure>
+        </div>
+        <div class="grid s2">
+          <div class="s2__chart reveal">
+            <div class="chart-box" id="donutBox">
+              <svg id="donut" viewBox="0 0 660 560" role="img" aria-label="Gráfica de dona del malestar principal."></svg>
+            </div>
+            <div id="donutTable"></div>
+          </div>
+          <div class="s2__text reveal">
+            <p class="s2__lead"><span data-v="withDistress">83</span> de <span data-v="n">102</span> estudiantes (<span data-v="pctDistress">81.4%</span>)</p>
+            <div class="chips" role="group" aria-label="Base de los porcentajes">
+              <button class="chip is-on" aria-pressed="true" data-base="102">Base 102</button>
+              <button class="chip" aria-pressed="false" data-base="83">Base 83</button>
+            </div>
+            <ol class="lrows" id="donutLegend"></ol>
+            <p class="note mono" id="baseNote">P: ¿Qué forma de malestar has experimentado más? Base: 102 estudiantes.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 03 CARGA -->
+    <section id="s3" class="sec" data-theme="dark" data-title="Carga académica" aria-labelledby="h3">
+      <div class="panel-wrap">
+        <div class="panel panel--light s3-panel reveal" data-cut="tl" data-theme="light">
+          <div class="badge badge--sm badge--blue s3__badge" data-points="12">
+            <p class="badge__t"><small>n =</small><b data-v="loadN">18</b></p>
+          </div>
+          <div class="grid">
+            <div class="s3__text">
+              <p class="kicker mono">03 · Carga académica</p>
+              <h2 id="h3" class="h2">La mitad siente<br>una carga<br><mark class="hl">moderada</mark></h2>
+              <p class="lead"><span id="loadLead"></span></p>
+              <div class="mini-cards">
+                <div class="panel panel--dark mini" data-cut="br" data-theme="dark">
+                  <p class="label mono">Horas fuera de clase</p>
+                  <p class="mini__big g"><span data-v="hoursMedian">5</span> h</p>
+                  <p class="label mono">mediana · n = <span data-v="hoursN">12</span> · <span data-v="hoursRange">0–20</span> h</p>
+                </div>
+                <div class="panel panel--dark mini" data-cut="br" data-theme="dark">
+                  <p class="label mono">Malestar, últ. 2 semanas</p>
+                  <svg id="freqDots" viewBox="0 0 252 20" role="img" aria-label="18 respuestas de frecuencia de malestar en las últimas dos semanas."></svg>
+                  <ul class="freq-legend mono" id="freqLegend"></ul>
+                  <div id="freqTable"></div>
+                </div>
+              </div>
+            </div>
+            <div class="s3__chart">
+              <svg id="hang" viewBox="0 0 400 250" role="img" aria-label="Puntos colgantes de carga académica percibida."></svg>
+              <div class="hang-labels" id="hangLabels"></div>
+              <div class="slider">
+                <label for="loadRange" class="sr-only">Nivel de carga a resaltar</label>
+                <input type="range" id="loadRange" min="0" max="3" step="1" value="1">
+                <p class="note mono">Arrastra o usa las flechas para explorar cada nivel</p>
+              </div>
+              <div id="hangTable"></div>
+            </div>
+            <p class="note mono s3__note">n = <span data-v="loadN">18</span> · 16 de estas respuestas son de estudiantes sin malestar reportado.<br>El cruce entre carga y malestar se sumará cuando haya más respuestas.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 04 FACULTADES -->
+    <section id="s4" class="sec" data-theme="dark" data-title="Facultades" aria-labelledby="h4">
+      <div class="wrap">
+        <div class="sec-head reveal">
+          <div>
+            <p class="kicker mono">04 · Facultades</p>
+            <h2 id="h4" class="h2">La facultad cambia<br><span class="y">hasta <span id="maxGap">39</span> puntos</span></h2>
+            <p class="note mono">% con malestar, por facultad y tipo de malestar</p>
+          </div>
+          <div class="badge badge--lg badge--pink" data-points="14">
+            <p class="badge__t"><b data-v="gap">39.3</b><small>puntos</small></p>
+          </div>
+        </div>
+        <div class="s4__chart reveal">
+          <div class="chips chips--fac" id="facChips" role="group" aria-label="Elige dos facultades para comparar"></div>
+          <p class="sr-only" aria-live="polite" id="gapLive"></p>
+          <div class="chart-box" id="barsBox">
+            <svg id="bars" role="img" aria-label="Barras apiladas de malestar por facultad."></svg>
+          </div>
+          <div class="s4__foot">
+            <ul class="type-legend mono" id="barLegend"></ul>
+            <p class="note mono">Derecho (n=7) y Humanidades (n=10): muestras pequeñas.</p>
+          </div>
+          <div id="barsTable"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 05 EUROPA -->
+    <section id="s5" class="sec" data-theme="dark" data-title="Comparación con Europa" aria-labelledby="h5">
+      <div class="wrap">
+        <div class="s5__head reveal">
+          <div>
+            <p class="kicker mono">05 · Comparación con Europa</p>
+            <h2 id="h5" class="h2">En Europa, <span id="euRange">6–26%</span><br>se dice poco feliz</h2>
+          </div>
+          <ul class="s5__tags" aria-label="Advertencia">
+            <li class="tag tag--green" style="--r:-6deg">Felicidad ≠ estrés</li>
+            <li class="tag tag--white" style="--r:4deg">No son equivalentes</li>
+          </ul>
+        </div>
+        <div class="s5__fields reveal">
+          <p class="label mono" id="fieldLabel">Campo de estudio</p>
+          <div class="chips--field" id="fieldChips" role="group" aria-labelledby="fieldLabel"></div>
+          <div class="select-wrap">
+            <label class="sr-only" for="fieldSelect">Campo de estudio</label>
+            <select id="fieldSelect"></select>
+          </div>
+          <p class="note mono" id="fieldMatch"></p>
+        </div>
+        <div class="s5__grid reveal">
+          <div class="panel panel--light s5__scatter" data-cut="br" data-theme="light">
+            <p class="label mono">Cada punto es un país · arriba a la izquierda, más infelices</p>
+            <div class="chart-box" id="scatterBox">
+              <svg id="scatter" role="img" aria-label="Dispersión de países europeos."></svg>
+            </div>
+            <div id="euTable"></div>
+          </div>
+          <div class="panel panel--light s5__hist" data-cut="tr" data-theme="light">
+            <div class="chart-box" id="histBox">
+              <p class="label mono">Histograma · países por<br>% poco o nada felices</p>
+              <svg id="hist" role="img" aria-label="Histograma de países."></svg>
+            </div>
+          </div>
+          <div class="panel panel--green ls-card" data-cut="bl" data-theme="light">
+            <p class="label mono">La Salle · <span id="lsName">Ingeniería</span></p>
+            <div class="ls-card__row">
+              <p class="ls-card__big" id="lsPct">84.6%</p>
+              <p class="ls-card__txt"><span id="lsTxt">22 de 26 reportan malestar emocional académico</span><br><span class="mono ls-card__note">Otra escala: no comparte ejes</span></p>
+            </div>
+          </div>
+        </div>
+        <p class="note mono s5__src">Contorno punteado = campo afín (sin licenciaturas de la muestra). Fuente: EUROSTUDENT 8 (2021–2024), M1.1 · <span id="euN">21</span> países. Emparejamiento facultad ↔ campo de estudio aproximado.</p>
+      </div>
+    </section>
+
+    <!-- 06 INTERPRETACIÓN -->
+    <section id="s6" class="sec" data-theme="dark" data-title="Interpretación" aria-labelledby="h6">
+      <div class="wrap">
+        <div class="center-head reveal">
+          <span class="badge badge--sm badge--blue" data-points="12" aria-hidden="true"></span>
+          <p class="kicker mono">06 · Interpretación</p>
+          <h2 id="h6" class="h2">Cuando aparece,<br>es frecuente</h2>
+        </div>
+        <div class="grid s6">
+          <div class="s6__chart reveal">
+            <p class="note mono">% de respuestas por frecuencia, últimas 2 semanas</p>
+            <div class="chips chips--lines" id="lineChips" role="group" aria-label="Mostrar u ocultar líneas"></div>
+            <div class="chart-box" id="lineBox">
+              <svg id="lines" role="img" aria-label="Líneas de frecuencia de síntomas."></svg>
+            </div>
+            <div id="lineTable"></div>
+          </div>
+          <div class="s6__cards reveal">
+            <article class="panel panel--light card6" data-cut="tr" data-theme="light">
+              <p class="card6__h"><span class="num">01</span> El estrés lidera</p>
+              <div class="stack" id="leadBar" role="img" aria-label=""></div>
+              <div class="stack-labels mono" id="leadLabels"></div>
+              <p class="card6__big"><span data-v="stress">40</span><small>/<span data-v="withDistress">83</span></small></p>
+              <p>personas señalaron el estrés como su malestar principal.</p>
+            </article>
+            <article class="panel panel--pink card6" data-cut="bl" data-theme="light">
+              <p class="card6__h"><span class="num">03</span> Dos preguntas distintas</p>
+              <div class="vs">
+                <div class="vs__c vs__c--y">Malestar académico</div>
+                <span class="vs__ne" aria-label="no es igual a">≠</span>
+                <div class="vs__c vs__c--b">Felicidad general</div>
+                <p class="vs__t">La Salle: malestar<br>Europa: felicidad<br><strong>Se leen lado a lado; nunca se restan.</strong></p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 07 CONCLUSIONES -->
+    <section id="s7" class="sec" data-theme="dark" data-title="Conclusiones y metodología" aria-labelledby="h7">
+      <div class="wrap">
+        <div class="center-head reveal">
+          <span class="badge badge--sm badge--pink" data-points="12" aria-hidden="true"></span>
+          <p class="kicker mono">07 · Conclusiones y metodología</p>
+          <h2 id="h7" class="h2">Lo invisible, <span class="b">ahora medido</span></h2>
+        </div>
+        <div class="ncards reveal">
+          <article class="panel panel--yellow ncard" data-cut="br" data-theme="light">
+            <p class="ncard__n" aria-hidden="true">01</p>
+            <h3 class="ncard__h">Prevalencia</h3>
+            <p class="ncard__v" data-v="pctDistress">81.4%</p>
+            <p class="ncard__t">reportó malestar; el estrés es el más señalado (<span data-v="stress">40</span>).</p>
+            <a class="btn-line" href="#s2">Ver sección</a>
+          </article>
+          <article class="panel panel--light ncard" data-cut="br" data-theme="light">
+            <p class="ncard__n" aria-hidden="true">02</p>
+            <h3 class="ncard__h">Desigualdad</h3>
+            <p class="ncard__v"><span data-v="gap">39.3</span> pts</p>
+            <p class="ncard__t">de diferencia entre facultades: de <span data-v="gapMin">53.3%</span> a <span data-v="gapMax">92.6%</span>.</p>
+            <a class="btn-line" href="#s4">Ver sección</a>
+          </article>
+          <article class="panel panel--light ncard" data-cut="br" data-theme="light">
+            <p class="ncard__n" aria-hidden="true">03</p>
+            <h3 class="ncard__h">Contexto</h3>
+            <p class="ncard__v"><span aria-hidden="true">≠</span><span class="sr-only">No es igual</span></p>
+            <p class="ncard__t">Europa ofrece contexto, no un punto de comparación directa.</p>
+            <a class="btn-line" href="#s5">Ver sección</a>
+          </article>
+        </div>
+        <div class="panel panel--light method reveal" data-cut="br" data-theme="light">
+          <div>
+            <h3 class="label mono">Ficha técnica</h3>
+            <dl class="rows" id="ficha"></dl>
+          </div>
+          <div>
+            <h3 class="label mono">Limitaciones</h3>
+            <ol class="rows rows--ol">
+              <li><span class="mono">01</span>Muestra no probabilística; no generalizable.</li>
+              <li><span class="mono">02</span>Facultades con n pequeño (Derecho n = 7).</li>
+              <li><span class="mono">03</span>Carga académica: solo 18 respuestas.</li>
+              <li><span class="mono">04</span>Preguntas, escalas y periodos distintos.</li>
+              <li><span class="mono">05</span>Facultad ↔ campo de estudio: aproximado.</li>
+            </ol>
+          </div>
+        </div>
+        <div class="foot reveal">
+          <div class="foot__actions">
+            <button class="btn btn--light" id="downloadBtn">Descargar datos abiertos</button>
+            <a class="btn-outline" href="#top">Volver arriba <span aria-hidden="true">↑</span></a>
+          </div>
+          <p class="note mono foot__src">Fuentes: encuesta propia, U. La Salle México (2026)<br>database.eurostudent.eu · EUROSTUDENT 8 · CSV con tablas agregadas, sin datos personales</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="tip" id="tip" role="status" aria-live="polite"></div>
+  <noscript><p class="noscript">Esta página necesita JavaScript para dibujar las gráficas.</p></noscript>
+</body>
+</html>

@@ -1,0 +1,4349 @@
+{
+ "source": "EUROSTUDENT 8 (2021–2024), database.eurostudent.eu, indicador happiness_5 (ítem M1.1), por campo de estudio (e_field)",
+ "url": "https://database.eurostudent.eu/drm/?eust_nr=8&e=happiness_5&fg=e_field&country_list=AT%2CAZ%2CCH%2CCZ%2CDE%2CDK%2CEE%2CFI%2CFR%2CGE%2CHR%2CHU%2CIE%2CIS%2CLT%2CLV%2CMT%2CNL%2CNO%2CPL%2CPT%2CRO%2CSE%2CSK&Curr=NCU",
+ "retrieved": "2026-11-16",
+ "method": "% felices = suma de los % publicados en niveles 1 y 2; % poco o nada felices = suma de los % publicados en niveles 4 y 5. Países sin dato (n. a.) o con muestra insuficiente (t. f. c.) se omiten.",
+ "relation": {
+  "directo": "el campo contiene licenciaturas de la facultad que respondieron la encuesta",
+  "afín": "campo relacionado con la facultad, sin estudiantes de la muestra en esa licenciatura"
+ },
+ "fields": {
+  "artes": {
+   "label": "Artes",
+   "chip": "Artes",
+   "faculty": "famadyc",
+   "relation": "directo",
+   "majors": [
+    "Diseño Gráfico Digital",
+    "Diseño de Ambientes Interiores y Exteriores"
+   ],
+   "es8": "Arts [ES8 Study field 3]",
+   "countries": [
+    {
+     "country": "AT",
+     "happy": 64.9,
+     "unhappy": 11.6,
+     "n": 1686,
+     "counts": [
+      372,
+      722,
+      397,
+      148,
+      47
+     ]
+    },
+    {
+     "country": "AZ",
+     "happy": 53.4,
+     "unhappy": 15.7,
+     "n": 90,
+     "counts": [
+      28,
+      20,
+      28,
+      14,
+      0
+     ]
+    },
+    {
+     "country": "CZ",
+     "happy": 55.3,
+     "unhappy": 14.2,
+     "n": 449,
+     "counts": [
+      78,
+      170,
+      137,
+      52,
+      12
+     ]
+    },
+    {
+     "country": "DK",
+     "happy": 71.0,
+     "unhappy": 9.0,
+     "n": 449,
+     "counts": [
+      81,
+      237,
+      90,
+      32,
+      9
+     ]
+    },
+    {
+     "country": "EE",
+     "happy": 60.8,
+     "unhappy": 11.9,
+     "n": 233,
+     "counts": [
+      44,
+      98,
+      63,
+      22,
+      6
+     ]
+    },
+    {
+     "country": "FI",
+     "happy": 49.5,
+     "unhappy": 13.4,
+     "n": 335,
+     "counts": [
+      30,
+      135,
+      125,
+      36,
+      9
+     ]
+    },
+    {
+     "country": "GE",
+     "happy": 47.6,
+     "unhappy": 17.3,
+     "n": 95,
+     "counts": [
+      23,
+      22,
+      33,
+      9,
+      8
+     ]
+    },
+    {
+     "country": "HR",
+     "happy": 53.4,
+     "unhappy": 15.9,
+     "n": 253,
+     "counts": [
+      47,
+      88,
+      78,
+      29,
+      11
+     ]
+    },
+    {
+     "country": "HU",
+     "happy": 45.4,
+     "unhappy": 23.4,
+     "n": 452,
+     "counts": [
+      58,
+      147,
+      141,
+      72,
+      34
+     ]
+    },
+    {
+     "country": "IE",
+     "happy": 57.0,
+     "unhappy": 13.9,
+     "n": 1728,
+     "counts": [
+      256,
+      729,
+      502,
+      195,
+      46
+     ]
+    },
+    {
+     "country": "IS",
+     "happy": 59.9,
+     "unhappy": 10.7,
+     "n": 111,
+     "counts": [
+      25,
+      42,
+      32,
+      11,
+      1
+     ]
+    },
+    {
+     "country": "LT",
+     "happy": 47.9,
+     "unhappy": 26.6,
+     "n": 97,
+     "counts": [
+      16,
+      30,
+      25,
+      22,
+      4
+     ]
+    },
+    {
+     "country": "LV",
+     "happy": 57.6,
+     "unhappy": 11.7,
+     "n": 121,
+     "counts": [
+      17,
+      53,
+      37,
+      13,
+      1
+     ]
+    },
+    {
+     "country": "MT",
+     "happy": 57.5,
+     "unhappy": 19.5,
+     "n": 48,
+     "counts": [
+      10,
+      18,
+      11,
+      8,
+      1
+     ]
+    },
+    {
+     "country": "NL",
+     "happy": 49.6,
+     "unhappy": 17.9,
+     "n": 407,
+     "counts": [
+      37,
+      165,
+      133,
+      61,
+      11
+     ]
+    },
+    {
+     "country": "NO",
+     "happy": 64.4,
+     "unhappy": 10.1,
+     "n": 200,
+     "counts": [
+      38,
+      91,
+      51,
+      18,
+      2
+     ]
+    },
+    {
+     "country": "PL",
+     "happy": 46.0,
+     "unhappy": 24.9,
+     "n": 342,
+     "counts": [
+      41,
+      116,
+      100,
+      71,
+      14
+     ]
+    },
+    {
+     "country": "PT",
+     "happy": 36.5,
+     "unhappy": 24.7,
+     "n": 546,
+     "counts": [
+      38,
+      161,
+      212,
+      96,
+      39
+     ]
+    },
+    {
+     "country": "RO",
+     "happy": 48.3,
+     "unhappy": 18.4,
+     "n": 254,
+     "counts": [
+      31,
+      92,
+      85,
+      29,
+      17
+     ]
+    },
+    {
+     "country": "SE",
+     "happy": 50.7,
+     "unhappy": 12.5,
+     "n": 180,
+     "counts": [
+      13,
+      78,
+      66,
+      18,
+      5
+     ]
+    },
+    {
+     "country": "SK",
+     "happy": 52.8,
+     "unhappy": 18.1,
+     "n": 139,
+     "counts": [
+      26,
+      47,
+      41,
+      20,
+      5
+     ]
+    }
+   ]
+  },
+  "arquitectura": {
+   "label": "Arquitectura y urbanismo",
+   "chip": "Arquitectura",
+   "faculty": "famadyc",
+   "relation": "directo",
+   "majors": [
+    "Arquitectura"
+   ],
+   "es8": "Architecture and town planning [ES8 Study field 13]",
+   "countries": [
+    {
+     "country": "AT",
+     "happy": 62.7,
+     "unhappy": 12.1,
+     "n": 1109,
+     "counts": [
+      213,
+      483,
+      279,
+      101,
+      33
+     ]
+    },
+    {
+     "country": "CZ",
+     "happy": 51.2,
+     "unhappy": 18.6,
+     "n": 216,
+     "counts": [
+      29,
+      82,
+      65,
+      34,
+      6
+     ]
+    },
+    {
+     "country": "DK",
+     "happy": 74.3,
+     "unhappy": 7.7,
+     "n": 162,
+     "counts": [
+      41,
+      79,
+      29,
+      5,
+      8
+     ]
+    },
+    {
+     "country": "EE",
+     "happy": 55.7,
+     "unhappy": 17.5,
+     "n": 61,
+     "counts": [
+      10,
+      24,
+      16,
+      8,
+      3
+     ]
+    },
+    {
+     "country": "FI",
+     "happy": 63.2,
+     "unhappy": 10.3,
+     "n": 310,
+     "counts": [
+      41,
+      155,
+      82,
+      26,
+      6
+     ]
+    },
+    {
+     "country": "GE",
+     "happy": 49.7,
+     "unhappy": 14.2,
+     "n": 142,
+     "counts": [
+      34,
+      36,
+      51,
+      14,
+      7
+     ]
+    },
+    {
+     "country": "HR",
+     "happy": 52.1,
+     "unhappy": 14.2,
+     "n": 82,
+     "counts": [
+      12,
+      31,
+      28,
+      9,
+      2
+     ]
+    },
+    {
+     "country": "HU",
+     "happy": 41.4,
+     "unhappy": 26.2,
+     "n": 405,
+     "counts": [
+      45,
+      123,
+      131,
+      87,
+      19
+     ]
+    },
+    {
+     "country": "IE",
+     "happy": 56.9,
+     "unhappy": 13.7,
+     "n": 686,
+     "counts": [
+      125,
+      265,
+      202,
+      74,
+      20
+     ]
+    },
+    {
+     "country": "IS",
+     "happy": 72.5,
+     "unhappy": 3.1,
+     "n": 26,
+     "counts": [
+      8,
+      11,
+      6,
+      1,
+      0
+     ]
+    },
+    {
+     "country": "LV",
+     "happy": 50.7,
+     "unhappy": 13.7,
+     "n": 117,
+     "counts": [
+      13,
+      46,
+      42,
+      14,
+      2
+     ]
+    },
+    {
+     "country": "NL",
+     "happy": 60.7,
+     "unhappy": 16.1,
+     "n": 169,
+     "counts": [
+      20,
+      83,
+      39,
+      20,
+      7
+     ]
+    },
+    {
+     "country": "NO",
+     "happy": 75.7,
+     "unhappy": 6.6,
+     "n": 73,
+     "counts": [
+      8,
+      47,
+      13,
+      4,
+      1
+     ]
+    },
+    {
+     "country": "PL",
+     "happy": 44.1,
+     "unhappy": 28.9,
+     "n": 200,
+     "counts": [
+      23,
+      65,
+      54,
+      53,
+      5
+     ]
+    },
+    {
+     "country": "PT",
+     "happy": 43.3,
+     "unhappy": 21.5,
+     "n": 157,
+     "counts": [
+      13,
+      55,
+      55,
+      32,
+      2
+     ]
+    },
+    {
+     "country": "RO",
+     "happy": 48.1,
+     "unhappy": 16.5,
+     "n": 148,
+     "counts": [
+      21,
+      50,
+      52,
+      19,
+      6
+     ]
+    },
+    {
+     "country": "SE",
+     "happy": 48.6,
+     "unhappy": 14.0,
+     "n": 149,
+     "counts": [
+      13,
+      59,
+      56,
+      18,
+      3
+     ]
+    },
+    {
+     "country": "SK",
+     "happy": 34.4,
+     "unhappy": 23.9,
+     "n": 57,
+     "counts": [
+      3,
+      16,
+      24,
+      10,
+      4
+     ]
+    }
+   ]
+  },
+  "comunicacion": {
+   "label": "Ciencias sociales, periodismo e información",
+   "chip": "Comunicación",
+   "faculty": "famadyc",
+   "relation": "directo",
+   "majors": [
+    "Comunicación"
+   ],
+   "es8": "Social sciences, journalism and information [ES8 Study field 6]",
+   "countries": [
+    {
+     "country": "AT",
+     "happy": 66.6,
+     "unhappy": 10.5,
+     "n": 2755,
+     "counts": [
+      562,
+      1273,
+      629,
+      243,
+      48
+     ]
+    },
+    {
+     "country": "AZ",
+     "happy": 65.3,
+     "unhappy": 5.2,
+     "n": 206,
+     "counts": [
+      58,
+      76,
+      61,
+      8,
+      3
+     ]
+    },
+    {
+     "country": "CZ",
+     "happy": 61.3,
+     "unhappy": 12.4,
+     "n": 1258,
+     "counts": [
+      243,
+      528,
+      331,
+      136,
+      20
+     ]
+    },
+    {
+     "country": "DK",
+     "happy": 70.5,
+     "unhappy": 8.0,
+     "n": 1182,
+     "counts": [
+      215,
+      619,
+      253,
+      76,
+      19
+     ]
+    },
+    {
+     "country": "EE",
+     "happy": 65.1,
+     "unhappy": 7.2,
+     "n": 274,
+     "counts": [
+      56,
+      122,
+      76,
+      17,
+      3
+     ]
+    },
+    {
+     "country": "FI",
+     "happy": 62.9,
+     "unhappy": 9.8,
+     "n": 338,
+     "counts": [
+      38,
+      174,
+      93,
+      22,
+      11
+     ]
+    },
+    {
+     "country": "GE",
+     "happy": 42.7,
+     "unhappy": 19.4,
+     "n": 513,
+     "counts": [
+      90,
+      129,
+      195,
+      70,
+      29
+     ]
+    },
+    {
+     "country": "HR",
+     "happy": 66.4,
+     "unhappy": 7.2,
+     "n": 343,
+     "counts": [
+      71,
+      157,
+      90,
+      20,
+      5
+     ]
+    },
+    {
+     "country": "HU",
+     "happy": 50.6,
+     "unhappy": 17.2,
+     "n": 1185,
+     "counts": [
+      170,
+      429,
+      382,
+      156,
+      48
+     ]
+    },
+    {
+     "country": "IE",
+     "happy": 59.5,
+     "unhappy": 11.4,
+     "n": 857,
+     "counts": [
+      115,
+      395,
+      250,
+      81,
+      16
+     ]
+    },
+    {
+     "country": "IS",
+     "happy": 65.2,
+     "unhappy": 10.0,
+     "n": 244,
+     "counts": [
+      59,
+      100,
+      61,
+      21,
+      3
+     ]
+    },
+    {
+     "country": "LT",
+     "happy": 52.6,
+     "unhappy": 13.1,
+     "n": 127,
+     "counts": [
+      15,
+      52,
+      44,
+      15,
+      1
+     ]
+    },
+    {
+     "country": "LV",
+     "happy": 57.5,
+     "unhappy": 11.2,
+     "n": 147,
+     "counts": [
+      16,
+      68,
+      46,
+      12,
+      5
+     ]
+    },
+    {
+     "country": "MT",
+     "happy": 47.4,
+     "unhappy": 8.8,
+     "n": 66,
+     "counts": [
+      11,
+      20,
+      29,
+      6,
+      0
+     ]
+    },
+    {
+     "country": "NL",
+     "happy": 56.8,
+     "unhappy": 12.8,
+     "n": 854,
+     "counts": [
+      84,
+      401,
+      260,
+      90,
+      19
+     ]
+    },
+    {
+     "country": "NO",
+     "happy": 63.0,
+     "unhappy": 11.3,
+     "n": 519,
+     "counts": [
+      73,
+      254,
+      133,
+      49,
+      10
+     ]
+    },
+    {
+     "country": "PL",
+     "happy": 48.8,
+     "unhappy": 20.9,
+     "n": 897,
+     "counts": [
+      109,
+      329,
+      272,
+      160,
+      27
+     ]
+    },
+    {
+     "country": "PT",
+     "happy": 46.2,
+     "unhappy": 14.6,
+     "n": 852,
+     "counts": [
+      65,
+      328,
+      335,
+      89,
+      35
+     ]
+    },
+    {
+     "country": "RO",
+     "happy": 52.0,
+     "unhappy": 14.8,
+     "n": 796,
+     "counts": [
+      130,
+      284,
+      264,
+      96,
+      22
+     ]
+    },
+    {
+     "country": "SE",
+     "happy": 45.9,
+     "unhappy": 18.0,
+     "n": 721,
+     "counts": [
+      55,
+      276,
+      260,
+      117,
+      13
+     ]
+    },
+    {
+     "country": "SK",
+     "happy": 55.6,
+     "unhappy": 14.8,
+     "n": 529,
+     "counts": [
+      75,
+      219,
+      157,
+      64,
+      14
+     ]
+    }
+   ]
+  },
+  "psicologia": {
+   "label": "Psicología",
+   "chip": "Psicología",
+   "faculty": "humanidades",
+   "relation": "directo",
+   "majors": [
+    "Psicología"
+   ],
+   "es8": "Psychology [ES8 Study field 7]",
+   "countries": [
+    {
+     "country": "AT",
+     "happy": 71.4,
+     "unhappy": 10.2,
+     "n": 1733,
+     "counts": [
+      370,
+      868,
+      318,
+      137,
+      40
+     ]
+    },
+    {
+     "country": "AZ",
+     "happy": 54.7,
+     "unhappy": 9.1,
+     "n": 30,
+     "counts": [
+      9,
+      7,
+      11,
+      3,
+      0
+     ]
+    },
+    {
+     "country": "CZ",
+     "happy": 71.6,
+     "unhappy": 11.3,
+     "n": 143,
+     "counts": [
+      35,
+      68,
+      24,
+      11,
+      5
+     ]
+    },
+    {
+     "country": "DK",
+     "happy": 75.3,
+     "unhappy": 3.1,
+     "n": 188,
+     "counts": [
+      45,
+      96,
+      41,
+      6,
+      0
+     ]
+    },
+    {
+     "country": "EE",
+     "happy": 66.4,
+     "unhappy": 10.0,
+     "n": 67,
+     "counts": [
+      16,
+      28,
+      16,
+      7,
+      0
+     ]
+    },
+    {
+     "country": "FI",
+     "happy": 57.6,
+     "unhappy": 5.3,
+     "n": 39,
+     "counts": [
+      5,
+      18,
+      14,
+      2,
+      0
+     ]
+    },
+    {
+     "country": "GE",
+     "happy": 38.5,
+     "unhappy": 25.4,
+     "n": 167,
+     "counts": [
+      18,
+      46,
+      60,
+      27,
+      16
+     ]
+    },
+    {
+     "country": "HR",
+     "happy": 63.2,
+     "unhappy": 10.0,
+     "n": 79,
+     "counts": [
+      22,
+      28,
+      21,
+      8,
+      0
+     ]
+    },
+    {
+     "country": "HU",
+     "happy": 55.9,
+     "unhappy": 11.5,
+     "n": 322,
+     "counts": [
+      46,
+      134,
+      105,
+      31,
+      6
+     ]
+    },
+    {
+     "country": "IE",
+     "happy": 55.3,
+     "unhappy": 13.9,
+     "n": 383,
+     "counts": [
+      44,
+      168,
+      118,
+      49,
+      4
+     ]
+    },
+    {
+     "country": "IS",
+     "happy": 66.4,
+     "unhappy": 13.3,
+     "n": 228,
+     "counts": [
+      42,
+      109,
+      46,
+      22,
+      9
+     ]
+    },
+    {
+     "country": "LT",
+     "happy": 55.0,
+     "unhappy": 13.6,
+     "n": 52,
+     "counts": [
+      10,
+      19,
+      16,
+      5,
+      2
+     ]
+    },
+    {
+     "country": "LV",
+     "happy": 63.7,
+     "unhappy": 10.1,
+     "n": 45,
+     "counts": [
+      4,
+      24,
+      12,
+      4,
+      1
+     ]
+    },
+    {
+     "country": "NL",
+     "happy": 55.9,
+     "unhappy": 13.3,
+     "n": 398,
+     "counts": [
+      26,
+      196,
+      123,
+      46,
+      7
+     ]
+    },
+    {
+     "country": "NO",
+     "happy": 66.7,
+     "unhappy": 6.5,
+     "n": 255,
+     "counts": [
+      40,
+      130,
+      68,
+      12,
+      5
+     ]
+    },
+    {
+     "country": "PL",
+     "happy": 51.2,
+     "unhappy": 21.6,
+     "n": 484,
+     "counts": [
+      83,
+      165,
+      131,
+      90,
+      15
+     ]
+    },
+    {
+     "country": "PT",
+     "happy": 54.1,
+     "unhappy": 10.8,
+     "n": 434,
+     "counts": [
+      37,
+      198,
+      152,
+      42,
+      5
+     ]
+    },
+    {
+     "country": "RO",
+     "happy": 55.3,
+     "unhappy": 9.4,
+     "n": 355,
+     "counts": [
+      53,
+      143,
+      126,
+      26,
+      7
+     ]
+    },
+    {
+     "country": "SE",
+     "happy": 52.4,
+     "unhappy": 15.2,
+     "n": 213,
+     "counts": [
+      19,
+      92,
+      69,
+      32,
+      1
+     ]
+    },
+    {
+     "country": "SK",
+     "happy": 62.5,
+     "unhappy": 9.3,
+     "n": 184,
+     "counts": [
+      17,
+      98,
+      52,
+      13,
+      4
+     ]
+    }
+   ]
+  },
+  "educacion": {
+   "label": "Ciencias de la educación",
+   "chip": "Educación",
+   "faculty": "humanidades",
+   "relation": "directo",
+   "majors": [
+    "Pedagogía"
+   ],
+   "es8": "Education Science [ES8 Study field 1]",
+   "countries": [
+    {
+     "country": "AT",
+     "happy": 72.6,
+     "unhappy": 6.9,
+     "n": 720,
+     "counts": [
+      194,
+      329,
+      147,
+      38,
+      12
+     ]
+    },
+    {
+     "country": "CZ",
+     "happy": 60.4,
+     "unhappy": 9.5,
+     "n": 652,
+     "counts": [
+      140,
+      254,
+      196,
+      50,
+      12
+     ]
+    },
+    {
+     "country": "DK",
+     "happy": 65.5,
+     "unhappy": 9.6,
+     "n": 158,
+     "counts": [
+      42,
+      61,
+      39,
+      12,
+      4
+     ]
+    },
+    {
+     "country": "EE",
+     "happy": 74.8,
+     "unhappy": 8.0,
+     "n": 59,
+     "counts": [
+      12,
+      32,
+      10,
+      4,
+      1
+     ]
+    },
+    {
+     "country": "FI",
+     "happy": 76.9,
+     "unhappy": 4.2,
+     "n": 99,
+     "counts": [
+      22,
+      54,
+      19,
+      4,
+      0
+     ]
+    },
+    {
+     "country": "GE",
+     "happy": 47.8,
+     "unhappy": 17.6,
+     "n": 103,
+     "counts": [
+      23,
+      26,
+      36,
+      13,
+      5
+     ]
+    },
+    {
+     "country": "HR",
+     "happy": 75.7,
+     "unhappy": 8.6,
+     "n": 40,
+     "counts": [
+      10,
+      20,
+      6,
+      2,
+      2
+     ]
+    },
+    {
+     "country": "HU",
+     "happy": 59.1,
+     "unhappy": 10.7,
+     "n": 127,
+     "counts": [
+      23,
+      52,
+      39,
+      9,
+      4
+     ]
+    },
+    {
+     "country": "IE",
+     "happy": 65.9,
+     "unhappy": 10.4,
+     "n": 575,
+     "counts": [
+      120,
+      259,
+      136,
+      44,
+      16
+     ]
+    },
+    {
+     "country": "IS",
+     "happy": 71.2,
+     "unhappy": 9.6,
+     "n": 236,
+     "counts": [
+      60,
+      108,
+      45,
+      18,
+      5
+     ]
+    },
+    {
+     "country": "LT",
+     "happy": 64.8,
+     "unhappy": 8.8,
+     "n": 38,
+     "counts": [
+      9,
+      16,
+      10,
+      3,
+      0
+     ]
+    },
+    {
+     "country": "LV",
+     "happy": 82.0,
+     "unhappy": 5.1,
+     "n": 16,
+     "counts": [
+      6,
+      7,
+      2,
+      1,
+      0
+     ]
+    },
+    {
+     "country": "MT",
+     "happy": 56.7,
+     "unhappy": 14.8,
+     "n": 42,
+     "counts": [
+      8,
+      16,
+      12,
+      4,
+      2
+     ]
+    },
+    {
+     "country": "NL",
+     "happy": 50.8,
+     "unhappy": 15.5,
+     "n": 332,
+     "counts": [
+      16,
+      153,
+      112,
+      44,
+      7
+     ]
+    },
+    {
+     "country": "NO",
+     "happy": 73.9,
+     "unhappy": 5.7,
+     "n": 403,
+     "counts": [
+      104,
+      194,
+      82,
+      20,
+      3
+     ]
+    },
+    {
+     "country": "PL",
+     "happy": 53.6,
+     "unhappy": 17.1,
+     "n": 429,
+     "counts": [
+      85,
+      145,
+      126,
+      52,
+      21
+     ]
+    },
+    {
+     "country": "PT",
+     "happy": 55.1,
+     "unhappy": 13.5,
+     "n": 91,
+     "counts": [
+      7,
+      43,
+      29,
+      12,
+      0
+     ]
+    },
+    {
+     "country": "RO",
+     "happy": 72.2,
+     "unhappy": 5.6,
+     "n": 477,
+     "counts": [
+      150,
+      195,
+      105,
+      19,
+      8
+     ]
+    },
+    {
+     "country": "SE",
+     "happy": 54.7,
+     "unhappy": 14.2,
+     "n": 100,
+     "counts": [
+      7,
+      48,
+      31,
+      14,
+      0
+     ]
+    },
+    {
+     "country": "SK",
+     "happy": 59.4,
+     "unhappy": 14.0,
+     "n": 120,
+     "counts": [
+      18,
+      53,
+      32,
+      10,
+      7
+     ]
+    }
+   ]
+  },
+  "docencia": {
+   "label": "Formación docente",
+   "chip": "Docencia",
+   "faculty": "humanidades",
+   "relation": "afín",
+   "majors": [],
+   "es8": "Teacher Training [ES8 Study field 2]",
+   "countries": [
+    {
+     "country": "AT",
+     "happy": 73.6,
+     "unhappy": 8.2,
+     "n": 5618,
+     "counts": [
+      1495,
+      2642,
+      1020,
+      361,
+      100
+     ]
+    },
+    {
+     "country": "AZ",
+     "happy": 56.8,
+     "unhappy": 8.5,
+     "n": 508,
+     "counts": [
+      139,
+      150,
+      176,
+      36,
+      7
+     ]
+    },
+    {
+     "country": "CZ",
+     "happy": 60.5,
+     "unhappy": 12.3,
+     "n": 1208,
+     "counts": [
+      226,
+      504,
+      330,
+      129,
+      19
+     ]
+    },
+    {
+     "country": "DK",
+     "happy": 76.3,
+     "unhappy": 6.8,
+     "n": 573,
+     "counts": [
+      128,
+      309,
+      97,
+      28,
+      11
+     ]
+    },
+    {
+     "country": "EE",
+     "happy": 69.5,
+     "unhappy": 6.1,
+     "n": 246,
+     "counts": [
+      47,
+      124,
+      60,
+      12,
+      3
+     ]
+    },
+    {
+     "country": "FI",
+     "happy": 70.1,
+     "unhappy": 6.3,
+     "n": 286,
+     "counts": [
+      36,
+      164,
+      68,
+      17,
+      1
+     ]
+    },
+    {
+     "country": "GE",
+     "happy": 47.5,
+     "unhappy": 22.9,
+     "n": 84,
+     "counts": [
+      20,
+      20,
+      25,
+      14,
+      5
+     ]
+    },
+    {
+     "country": "HR",
+     "happy": 71.8,
+     "unhappy": 9.0,
+     "n": 516,
+     "counts": [
+      132,
+      238,
+      99,
+      42,
+      5
+     ]
+    },
+    {
+     "country": "HU",
+     "happy": 51.0,
+     "unhappy": 16.6,
+     "n": 1478,
+     "counts": [
+      225,
+      529,
+      479,
+      191,
+      54
+     ]
+    },
+    {
+     "country": "IE",
+     "happy": 55.5,
+     "unhappy": 14.6,
+     "n": 474,
+     "counts": [
+      69,
+      194,
+      142,
+      53,
+      16
+     ]
+    },
+    {
+     "country": "IS",
+     "happy": 76.2,
+     "unhappy": 6.9,
+     "n": 326,
+     "counts": [
+      87,
+      162,
+      55,
+      17,
+      5
+     ]
+    },
+    {
+     "country": "LV",
+     "happy": 61.5,
+     "unhappy": 7.3,
+     "n": 162,
+     "counts": [
+      38,
+      62,
+      50,
+      12,
+      0
+     ]
+    },
+    {
+     "country": "MT",
+     "happy": 76.6,
+     "unhappy": 4.6,
+     "n": 70,
+     "counts": [
+      22,
+      32,
+      13,
+      1,
+      2
+     ]
+    },
+    {
+     "country": "NL",
+     "happy": 48.2,
+     "unhappy": 13.7,
+     "n": 485,
+     "counts": [
+      39,
+      195,
+      185,
+      60,
+      6
+     ]
+    },
+    {
+     "country": "NO",
+     "happy": 71.8,
+     "unhappy": 6.0,
+     "n": 1043,
+     "counts": [
+      203,
+      546,
+      232,
+      51,
+      11
+     ]
+    },
+    {
+     "country": "PL",
+     "happy": 47.5,
+     "unhappy": 16.5,
+     "n": 304,
+     "counts": [
+      53,
+      91,
+      110,
+      35,
+      15
+     ]
+    },
+    {
+     "country": "PT",
+     "happy": 54.4,
+     "unhappy": 10.8,
+     "n": 289,
+     "counts": [
+      30,
+      127,
+      101,
+      27,
+      4
+     ]
+    },
+    {
+     "country": "SE",
+     "happy": 50.1,
+     "unhappy": 13.9,
+     "n": 948,
+     "counts": [
+      74,
+      401,
+      341,
+      115,
+      17
+     ]
+    },
+    {
+     "country": "SK",
+     "happy": 61.7,
+     "unhappy": 10.1,
+     "n": 810,
+     "counts": [
+      135,
+      365,
+      228,
+      67,
+      15
+     ]
+    }
+   ]
+  },
+  "humanidades": {
+   "label": "Humanidades",
+   "chip": "Humanidades",
+   "faculty": "humanidades",
+   "relation": "afín",
+   "majors": [],
+   "es8": "Humanities [ES8 Study field 4]",
+   "countries": [
+    {
+     "country": "AT",
+     "happy": 65.2,
+     "unhappy": 12.6,
+     "n": 1608,
+     "counts": [
+      383,
+      666,
+      356,
+      158,
+      45
+     ]
+    },
+    {
+     "country": "AZ",
+     "happy": 67.8,
+     "unhappy": 5.1,
+     "n": 84,
+     "counts": [
+      26,
+      31,
+      23,
+      4,
+      0
+     ]
+    },
+    {
+     "country": "CZ",
+     "happy": 55.4,
+     "unhappy": 15.9,
+     "n": 482,
+     "counts": [
+      93,
+      174,
+      139,
+      63,
+      13
+     ]
+    },
+    {
+     "country": "DK",
+     "happy": 66.6,
+     "unhappy": 13.5,
+     "n": 408,
+     "counts": [
+      91,
+      181,
+      81,
+      52,
+      3
+     ]
+    },
+    {
+     "country": "EE",
+     "happy": 57.3,
+     "unhappy": 9.8,
+     "n": 108,
+     "counts": [
+      18,
+      44,
+      35,
+      6,
+      5
+     ]
+    },
+    {
+     "country": "FI",
+     "happy": 52.3,
+     "unhappy": 10.4,
+     "n": 144,
+     "counts": [
+      15,
+      60,
+      54,
+      11,
+      4
+     ]
+    },
+    {
+     "country": "GE",
+     "happy": 52.3,
+     "unhappy": 10.3,
+     "n": 164,
+     "counts": [
+      55,
+      31,
+      61,
+      7,
+      10
+     ]
+    },
+    {
+     "country": "HR",
+     "happy": 74.7,
+     "unhappy": 8.4,
+     "n": 125,
+     "counts": [
+      42,
+      51,
+      21,
+      9,
+      2
+     ]
+    },
+    {
+     "country": "HU",
+     "happy": 55.6,
+     "unhappy": 15.5,
+     "n": 345,
+     "counts": [
+      71,
+      121,
+      100,
+      46,
+      7
+     ]
+    },
+    {
+     "country": "IE",
+     "happy": 53.0,
+     "unhappy": 16.4,
+     "n": 724,
+     "counts": [
+      131,
+      253,
+      222,
+      89,
+      29
+     ]
+    },
+    {
+     "country": "IS",
+     "happy": 69.4,
+     "unhappy": 10.5,
+     "n": 134,
+     "counts": [
+      28,
+      65,
+      27,
+      10,
+      4
+     ]
+    },
+    {
+     "country": "LT",
+     "happy": 48.6,
+     "unhappy": 16.5,
+     "n": 55,
+     "counts": [
+      6,
+      21,
+      19,
+      5,
+      4
+     ]
+    },
+    {
+     "country": "LV",
+     "happy": 50.9,
+     "unhappy": 21.2,
+     "n": 59,
+     "counts": [
+      9,
+      21,
+      16,
+      10,
+      3
+     ]
+    },
+    {
+     "country": "MT",
+     "happy": 63.2,
+     "unhappy": 14.8,
+     "n": 32,
+     "counts": [
+      3,
+      17,
+      7,
+      3,
+      2
+     ]
+    },
+    {
+     "country": "NL",
+     "happy": 58.3,
+     "unhappy": 12.2,
+     "n": 167,
+     "counts": [
+      20,
+      77,
+      50,
+      17,
+      3
+     ]
+    },
+    {
+     "country": "NO",
+     "happy": 65.3,
+     "unhappy": 9.4,
+     "n": 321,
+     "counts": [
+      60,
+      150,
+      81,
+      28,
+      2
+     ]
+    },
+    {
+     "country": "PL",
+     "happy": 54.4,
+     "unhappy": 23.0,
+     "n": 169,
+     "counts": [
+      34,
+      58,
+      38,
+      35,
+      4
+     ]
+    },
+    {
+     "country": "PT",
+     "happy": 50.3,
+     "unhappy": 18.6,
+     "n": 259,
+     "counts": [
+      11,
+      119,
+      81,
+      34,
+      14
+     ]
+    },
+    {
+     "country": "RO",
+     "happy": 64.6,
+     "unhappy": 12.6,
+     "n": 255,
+     "counts": [
+      82,
+      83,
+      58,
+      23,
+      9
+     ]
+    },
+    {
+     "country": "SE",
+     "happy": 45.3,
+     "unhappy": 13.0,
+     "n": 347,
+     "counts": [
+      30,
+      127,
+      145,
+      40,
+      5
+     ]
+    },
+    {
+     "country": "SK",
+     "happy": 59.4,
+     "unhappy": 9.8,
+     "n": 107,
+     "counts": [
+      19,
+      44,
+      33,
+      11,
+      0
+     ]
+    }
+   ]
+  },
+  "idiomas": {
+   "label": "Idiomas",
+   "chip": "Idiomas",
+   "faculty": "humanidades",
+   "relation": "afín",
+   "majors": [],
+   "es8": "Languages [ES8 Study field 5]",
+   "countries": [
+    {
+     "country": "AT",
+     "happy": 62.9,
+     "unhappy": 10.4,
+     "n": 1551,
+     "counts": [
+      299,
+      676,
+      416,
+      136,
+      24
+     ]
+    },
+    {
+     "country": "AZ",
+     "happy": 52.7,
+     "unhappy": 10.1,
+     "n": 98,
+     "counts": [
+      28,
+      24,
+      36,
+      5,
+      5
+     ]
+    },
+    {
+     "country": "CZ",
+     "happy": 57.3,
+     "unhappy": 15.9,
+     "n": 440,
+     "counts": [
+      70,
+      183,
+      117,
+      55,
+      15
+     ]
+    },
+    {
+     "country": "DK",
+     "happy": 62.2,
+     "unhappy": 7.8,
+     "n": 370,
+     "counts": [
+      63,
+      167,
+      111,
+      27,
+      2
+     ]
+    },
+    {
+     "country": "EE",
+     "happy": 54.2,
+     "unhappy": 13.2,
+     "n": 164,
+     "counts": [
+      19,
+      70,
+      53,
+      14,
+      8
+     ]
+    },
+    {
+     "country": "FI",
+     "happy": 50.4,
+     "unhappy": 18.6,
+     "n": 213,
+     "counts": [
+      16,
+      91,
+      66,
+      30,
+      10
+     ]
+    },
+    {
+     "country": "GE",
+     "happy": 40.5,
+     "unhappy": 23.0,
+     "n": 185,
+     "counts": [
+      34,
+      41,
+      67,
+      27,
+      16
+     ]
+    },
+    {
+     "country": "HR",
+     "happy": 59.1,
+     "unhappy": 13.4,
+     "n": 290,
+     "counts": [
+      74,
+      97,
+      80,
+      31,
+      8
+     ]
+    },
+    {
+     "country": "HU",
+     "happy": 47.4,
+     "unhappy": 20.6,
+     "n": 431,
+     "counts": [
+      66,
+      138,
+      138,
+      60,
+      29
+     ]
+    },
+    {
+     "country": "IE",
+     "happy": 60.1,
+     "unhappy": 12.9,
+     "n": 267,
+     "counts": [
+      48,
+      112,
+      72,
+      23,
+      12
+     ]
+    },
+    {
+     "country": "IS",
+     "happy": 66.2,
+     "unhappy": 11.0,
+     "n": 197,
+     "counts": [
+      42,
+      89,
+      45,
+      11,
+      10
+     ]
+    },
+    {
+     "country": "LV",
+     "happy": 47.0,
+     "unhappy": 11.4,
+     "n": 28,
+     "counts": [
+      4,
+      9,
+      12,
+      3,
+      0
+     ]
+    },
+    {
+     "country": "NL",
+     "happy": 57.4,
+     "unhappy": 15.4,
+     "n": 120,
+     "counts": [
+      11,
+      58,
+      33,
+      14,
+      4
+     ]
+    },
+    {
+     "country": "NO",
+     "happy": 68.7,
+     "unhappy": 8.6,
+     "n": 176,
+     "counts": [
+      36,
+      85,
+      40,
+      11,
+      4
+     ]
+    },
+    {
+     "country": "PL",
+     "happy": 42.5,
+     "unhappy": 26.5,
+     "n": 590,
+     "counts": [
+      55,
+      195,
+      184,
+      123,
+      33
+     ]
+    },
+    {
+     "country": "PT",
+     "happy": 42.2,
+     "unhappy": 22.3,
+     "n": 263,
+     "counts": [
+      10,
+      101,
+      94,
+      49,
+      9
+     ]
+    },
+    {
+     "country": "RO",
+     "happy": 47.8,
+     "unhappy": 17.5,
+     "n": 414,
+     "counts": [
+      58,
+      140,
+      144,
+      52,
+      20
+     ]
+    },
+    {
+     "country": "SE",
+     "happy": 47.3,
+     "unhappy": 17.4,
+     "n": 188,
+     "counts": [
+      19,
+      70,
+      66,
+      29,
+      4
+     ]
+    },
+    {
+     "country": "SK",
+     "happy": 57.7,
+     "unhappy": 17.0,
+     "n": 196,
+     "counts": [
+      31,
+      82,
+      50,
+      31,
+      2
+     ]
+    }
+   ]
+  },
+  "naturales": {
+   "label": "Ciencias naturales, matemáticas y estadística",
+   "chip": "C. naturales",
+   "faculty": "quimica",
+   "relation": "directo",
+   "majors": [
+    "Química de Alimentos"
+   ],
+   "es8": "Natural sciences, mathematics and statistics [ES8 Study field 10]",
+   "countries": [
+    {
+     "country": "AT",
+     "happy": 63.7,
+     "unhappy": 12.7,
+     "n": 3948,
+     "counts": [
+      759,
+      1757,
+      930,
+      407,
+      95
+     ]
+    },
+    {
+     "country": "AZ",
+     "happy": 56.2,
+     "unhappy": 8.4,
+     "n": 87,
+     "counts": [
+      19,
+      30,
+      31,
+      7,
+      0
+     ]
+    },
+    {
+     "country": "CZ",
+     "happy": 58.1,
+     "unhappy": 13.3,
+     "n": 935,
+     "counts": [
+      179,
+      364,
+      268,
+      103,
+      21
+     ]
+    },
+    {
+     "country": "DK",
+     "happy": 67.9,
+     "unhappy": 6.2,
+     "n": 985,
+     "counts": [
+      205,
+      464,
+      256,
+      50,
+      10
+     ]
+    },
+    {
+     "country": "EE",
+     "happy": 55.1,
+     "unhappy": 13.8,
+     "n": 270,
+     "counts": [
+      41,
+      108,
+      84,
+      30,
+      7
+     ]
+    },
+    {
+     "country": "FI",
+     "happy": 52.6,
+     "unhappy": 18.0,
+     "n": 279,
+     "counts": [
+      32,
+      115,
+      82,
+      46,
+      4
+     ]
+    },
+    {
+     "country": "GE",
+     "happy": 35.5,
+     "unhappy": 27.8,
+     "n": 174,
+     "counts": [
+      31,
+      31,
+      64,
+      24,
+      24
+     ]
+    },
+    {
+     "country": "HR",
+     "happy": 54.2,
+     "unhappy": 14.3,
+     "n": 341,
+     "counts": [
+      57,
+      128,
+      107,
+      41,
+      8
+     ]
+    },
+    {
+     "country": "HU",
+     "happy": 44.4,
+     "unhappy": 23.1,
+     "n": 372,
+     "counts": [
+      47,
+      118,
+      121,
+      60,
+      26
+     ]
+    },
+    {
+     "country": "IE",
+     "happy": 53.7,
+     "unhappy": 15.6,
+     "n": 2673,
+     "counts": [
+      356,
+      1080,
+      822,
+      336,
+      79
+     ]
+    },
+    {
+     "country": "IS",
+     "happy": 57.7,
+     "unhappy": 21.2,
+     "n": 185,
+     "counts": [
+      30,
+      77,
+      39,
+      35,
+      4
+     ]
+    },
+    {
+     "country": "LT",
+     "happy": 47.8,
+     "unhappy": 23.6,
+     "n": 71,
+     "counts": [
+      7,
+      27,
+      20,
+      10,
+      7
+     ]
+    },
+    {
+     "country": "LV",
+     "happy": 50.0,
+     "unhappy": 14.5,
+     "n": 49,
+     "counts": [
+      8,
+      16,
+      18,
+      7,
+      0
+     ]
+    },
+    {
+     "country": "MT",
+     "happy": 51.5,
+     "unhappy": 25.6,
+     "n": 37,
+     "counts": [
+      4,
+      15,
+      8,
+      9,
+      1
+     ]
+    },
+    {
+     "country": "NL",
+     "happy": 63.8,
+     "unhappy": 10.6,
+     "n": 610,
+     "counts": [
+      63,
+      326,
+      156,
+      56,
+      9
+     ]
+    },
+    {
+     "country": "NO",
+     "happy": 66.4,
+     "unhappy": 8.8,
+     "n": 321,
+     "counts": [
+      60,
+      154,
+      79,
+      22,
+      6
+     ]
+    },
+    {
+     "country": "PL",
+     "happy": 48.3,
+     "unhappy": 24.1,
+     "n": 399,
+     "counts": [
+      46,
+      147,
+      110,
+      75,
+      21
+     ]
+    },
+    {
+     "country": "PT",
+     "happy": 48.7,
+     "unhappy": 16.1,
+     "n": 685,
+     "counts": [
+      51,
+      283,
+      241,
+      97,
+      13
+     ]
+    },
+    {
+     "country": "RO",
+     "happy": 54.7,
+     "unhappy": 15.5,
+     "n": 477,
+     "counts": [
+      86,
+      175,
+      142,
+      56,
+      18
+     ]
+    },
+    {
+     "country": "SE",
+     "happy": 51.7,
+     "unhappy": 15.7,
+     "n": 378,
+     "counts": [
+      28,
+      168,
+      123,
+      52,
+      7
+     ]
+    },
+    {
+     "country": "SK",
+     "happy": 57.3,
+     "unhappy": 13.0,
+     "n": 273,
+     "counts": [
+      33,
+      123,
+      81,
+      28,
+      8
+     ]
+    }
+   ]
+  },
+  "farmacia": {
+   "label": "Farmacia",
+   "chip": "Farmacia",
+   "faculty": "quimica",
+   "relation": "directo",
+   "majors": [
+    "Químico Farmacéutico Biólogo"
+   ],
+   "es8": "Pharmacy [ES8 Study field 17]",
+   "countries": [
+    {
+     "country": "AT",
+     "happy": 56.1,
+     "unhappy": 14.9,
+     "n": 693,
+     "counts": [
+      101,
+      288,
+      201,
+      83,
+      20
+     ]
+    },
+    {
+     "country": "CZ",
+     "happy": 56.6,
+     "unhappy": 14.9,
+     "n": 96,
+     "counts": [
+      15,
+      39,
+      28,
+      11,
+      3
+     ]
+    },
+    {
+     "country": "EE",
+     "happy": 68.1,
+     "unhappy": 4.4,
+     "n": 36,
+     "counts": [
+      5,
+      19,
+      10,
+      1,
+      1
+     ]
+    },
+    {
+     "country": "GE",
+     "happy": 47.7,
+     "unhappy": 12.2,
+     "n": 111,
+     "counts": [
+      22,
+      31,
+      44,
+      6,
+      8
+     ]
+    },
+    {
+     "country": "HR",
+     "happy": 65.8,
+     "unhappy": 8.8,
+     "n": 54,
+     "counts": [
+      11,
+      24,
+      14,
+      3,
+      2
+     ]
+    },
+    {
+     "country": "HU",
+     "happy": 33.7,
+     "unhappy": 21.2,
+     "n": 141,
+     "counts": [
+      14,
+      33,
+      64,
+      21,
+      9
+     ]
+    },
+    {
+     "country": "IE",
+     "happy": 56.7,
+     "unhappy": 16.0,
+     "n": 162,
+     "counts": [
+      26,
+      66,
+      44,
+      23,
+      3
+     ]
+    },
+    {
+     "country": "LV",
+     "happy": 51.6,
+     "unhappy": 13.3,
+     "n": 19,
+     "counts": [
+      0,
+      10,
+      7,
+      1,
+      1
+     ]
+    },
+    {
+     "country": "NL",
+     "happy": 60.4,
+     "unhappy": 8.4,
+     "n": 57,
+     "counts": [
+      4,
+      31,
+      18,
+      2,
+      2
+     ]
+    },
+    {
+     "country": "PL",
+     "happy": 41.4,
+     "unhappy": 14.8,
+     "n": 72,
+     "counts": [
+      4,
+      26,
+      31,
+      9,
+      2
+     ]
+    },
+    {
+     "country": "PT",
+     "happy": 47.6,
+     "unhappy": 16.7,
+     "n": 143,
+     "counts": [
+      10,
+      58,
+      51,
+      18,
+      6
+     ]
+    },
+    {
+     "country": "RO",
+     "happy": 61.6,
+     "unhappy": 11.2,
+     "n": 133,
+     "counts": [
+      22,
+      60,
+      36,
+      14,
+      1
+     ]
+    },
+    {
+     "country": "SE",
+     "happy": 41.1,
+     "unhappy": 15.9,
+     "n": 51,
+     "counts": [
+      4,
+      17,
+      22,
+      6,
+      2
+     ]
+    },
+    {
+     "country": "SK",
+     "happy": 57.9,
+     "unhappy": 13.7,
+     "n": 70,
+     "counts": [
+      6,
+      35,
+      20,
+      8,
+      1
+     ]
+    }
+   ]
+  },
+  "salud": {
+   "label": "Salud",
+   "chip": "Salud",
+   "faculty": "quimica",
+   "relation": "afín",
+   "majors": [],
+   "es8": "Health [ES8 Study field 16]",
+   "countries": [
+    {
+     "country": "AT",
+     "happy": 76.4,
+     "unhappy": 6.8,
+     "n": 1636,
+     "counts": [
+      460,
+      790,
+      276,
+      86,
+      24
+     ]
+    },
+    {
+     "country": "CZ",
+     "happy": 54.3,
+     "unhappy": 12.9,
+     "n": 746,
+     "counts": [
+      82,
+      323,
+      245,
+      73,
+      23
+     ]
+    },
+    {
+     "country": "DK",
+     "happy": 73.7,
+     "unhappy": 7.1,
+     "n": 1588,
+     "counts": [
+      386,
+      784,
+      304,
+      96,
+      18
+     ]
+    },
+    {
+     "country": "EE",
+     "happy": 67.2,
+     "unhappy": 5.0,
+     "n": 270,
+     "counts": [
+      46,
+      135,
+      75,
+      12,
+      2
+     ]
+    },
+    {
+     "country": "FI",
+     "happy": 64.9,
+     "unhappy": 6.9,
+     "n": 804,
+     "counts": [
+      89,
+      433,
+      227,
+      49,
+      6
+     ]
+    },
+    {
+     "country": "GE",
+     "happy": 42.4,
+     "unhappy": 22.9,
+     "n": 158,
+     "counts": [
+      22,
+      45,
+      55,
+      21,
+      15
+     ]
+    },
+    {
+     "country": "HR",
+     "happy": 61.5,
+     "unhappy": 6.7,
+     "n": 631,
+     "counts": [
+      123,
+      266,
+      200,
+      32,
+      10
+     ]
+    },
+    {
+     "country": "HU",
+     "happy": 47.9,
+     "unhappy": 19.1,
+     "n": 677,
+     "counts": [
+      77,
+      247,
+      223,
+      109,
+      21
+     ]
+    },
+    {
+     "country": "IE",
+     "happy": 59.4,
+     "unhappy": 12.2,
+     "n": 1534,
+     "counts": [
+      303,
+      608,
+      437,
+      140,
+      46
+     ]
+    },
+    {
+     "country": "IS",
+     "happy": 71.6,
+     "unhappy": 6.9,
+     "n": 387,
+     "counts": [
+      89,
+      188,
+      83,
+      23,
+      4
+     ]
+    },
+    {
+     "country": "LT",
+     "happy": 55.3,
+     "unhappy": 10.1,
+     "n": 113,
+     "counts": [
+      28,
+      35,
+      39,
+      9,
+      2
+     ]
+    },
+    {
+     "country": "LV",
+     "happy": 60.3,
+     "unhappy": 12.0,
+     "n": 170,
+     "counts": [
+      26,
+      76,
+      47,
+      17,
+      4
+     ]
+    },
+    {
+     "country": "MT",
+     "happy": 58.7,
+     "unhappy": 10.0,
+     "n": 93,
+     "counts": [
+      9,
+      45,
+      29,
+      7,
+      3
+     ]
+    },
+    {
+     "country": "NL",
+     "happy": 55.4,
+     "unhappy": 14.0,
+     "n": 691,
+     "counts": [
+      58,
+      325,
+      211,
+      86,
+      11
+     ]
+    },
+    {
+     "country": "NO",
+     "happy": 71.0,
+     "unhappy": 6.7,
+     "n": 1030,
+     "counts": [
+      209,
+      523,
+      230,
+      48,
+      20
+     ]
+    },
+    {
+     "country": "PL",
+     "happy": 53.7,
+     "unhappy": 17.1,
+     "n": 925,
+     "counts": [
+      177,
+      320,
+      270,
+      128,
+      30
+     ]
+    },
+    {
+     "country": "PT",
+     "happy": 56.7,
+     "unhappy": 10.2,
+     "n": 1078,
+     "counts": [
+      100,
+      511,
+      356,
+      86,
+      25
+     ]
+    },
+    {
+     "country": "RO",
+     "happy": 68.7,
+     "unhappy": 9.9,
+     "n": 398,
+     "counts": [
+      107,
+      166,
+      86,
+      17,
+      22
+     ]
+    },
+    {
+     "country": "SE",
+     "happy": 52.2,
+     "unhappy": 13.5,
+     "n": 656,
+     "counts": [
+      61,
+      282,
+      225,
+      78,
+      10
+     ]
+    },
+    {
+     "country": "SK",
+     "happy": 59.8,
+     "unhappy": 10.1,
+     "n": 950,
+     "counts": [
+      214,
+      354,
+      286,
+      71,
+      25
+     ]
+    }
+   ]
+  },
+  "medicina": {
+   "label": "Medicina y odontología",
+   "chip": "Medicina",
+   "faculty": "quimica",
+   "relation": "afín",
+   "majors": [],
+   "es8": "Medicine, Dental Studies [ES8 Study field 15]",
+   "countries": [
+    {
+     "country": "AT",
+     "happy": 78.3,
+     "unhappy": 6.5,
+     "n": 2213,
+     "counts": [
+      697,
+      1036,
+      337,
+      106,
+      37
+     ]
+    },
+    {
+     "country": "AZ",
+     "happy": 69.4,
+     "unhappy": 1.1,
+     "n": 116,
+     "counts": [
+      20,
+      61,
+      34,
+      0,
+      1
+     ]
+    },
+    {
+     "country": "CZ",
+     "happy": 59.2,
+     "unhappy": 12.9,
+     "n": 857,
+     "counts": [
+      145,
+      362,
+      239,
+      95,
+      16
+     ]
+    },
+    {
+     "country": "DK",
+     "happy": 77.6,
+     "unhappy": 6.1,
+     "n": 626,
+     "counts": [
+      180,
+      307,
+      101,
+      30,
+      8
+     ]
+    },
+    {
+     "country": "EE",
+     "happy": 62.5,
+     "unhappy": 12.1,
+     "n": 123,
+     "counts": [
+      22,
+      55,
+      31,
+      13,
+      2
+     ]
+    },
+    {
+     "country": "FI",
+     "happy": 78.1,
+     "unhappy": 5.4,
+     "n": 149,
+     "counts": [
+      37,
+      79,
+      25,
+      7,
+      1
+     ]
+    },
+    {
+     "country": "GE",
+     "happy": 39.7,
+     "unhappy": 24.0,
+     "n": 623,
+     "counts": [
+      101,
+      146,
+      227,
+      85,
+      64
+     ]
+    },
+    {
+     "country": "HR",
+     "happy": 67.1,
+     "unhappy": 10.0,
+     "n": 305,
+     "counts": [
+      89,
+      115,
+      70,
+      25,
+      6
+     ]
+    },
+    {
+     "country": "HU",
+     "happy": 45.7,
+     "unhappy": 21.7,
+     "n": 947,
+     "counts": [
+      136,
+      297,
+      308,
+      145,
+      61
+     ]
+    },
+    {
+     "country": "IE",
+     "happy": 62.0,
+     "unhappy": 11.9,
+     "n": 720,
+     "counts": [
+      108,
+      338,
+      189,
+      68,
+      17
+     ]
+    },
+    {
+     "country": "IS",
+     "happy": 77.2,
+     "unhappy": 7.0,
+     "n": 71,
+     "counts": [
+      16,
+      39,
+      11,
+      4,
+      1
+     ]
+    },
+    {
+     "country": "LT",
+     "happy": 58.0,
+     "unhappy": 18.0,
+     "n": 130,
+     "counts": [
+      26,
+      50,
+      31,
+      19,
+      4
+     ]
+    },
+    {
+     "country": "LV",
+     "happy": 55.6,
+     "unhappy": 16.3,
+     "n": 261,
+     "counts": [
+      33,
+      112,
+      73,
+      34,
+      9
+     ]
+    },
+    {
+     "country": "MT",
+     "happy": 57.1,
+     "unhappy": 12.6,
+     "n": 68,
+     "counts": [
+      6,
+      33,
+      21,
+      7,
+      1
+     ]
+    },
+    {
+     "country": "NL",
+     "happy": 67.3,
+     "unhappy": 8.0,
+     "n": 303,
+     "counts": [
+      28,
+      176,
+      75,
+      22,
+      2
+     ]
+    },
+    {
+     "country": "NO",
+     "happy": 76.3,
+     "unhappy": 7.0,
+     "n": 197,
+     "counts": [
+      40,
+      110,
+      33,
+      11,
+      3
+     ]
+    },
+    {
+     "country": "PL",
+     "happy": 50.9,
+     "unhappy": 21.1,
+     "n": 451,
+     "counts": [
+      56,
+      174,
+      126,
+      75,
+      20
+     ]
+    },
+    {
+     "country": "PT",
+     "happy": 58.6,
+     "unhappy": 13.4,
+     "n": 314,
+     "counts": [
+      28,
+      156,
+      88,
+      34,
+      8
+     ]
+    },
+    {
+     "country": "RO",
+     "happy": 60.4,
+     "unhappy": 9.6,
+     "n": 1517,
+     "counts": [
+      292,
+      624,
+      455,
+      121,
+      25
+     ]
+    },
+    {
+     "country": "SE",
+     "happy": 55.5,
+     "unhappy": 16.3,
+     "n": 46,
+     "counts": [
+      4,
+      22,
+      13,
+      3,
+      4
+     ]
+    },
+    {
+     "country": "SK",
+     "happy": 58.2,
+     "unhappy": 12.8,
+     "n": 466,
+     "counts": [
+      92,
+      179,
+      135,
+      56,
+      4
+     ]
+    }
+   ]
+  },
+  "ingenieria": {
+   "label": "Ingeniería, manufactura y construcción",
+   "chip": "Ingeniería",
+   "faculty": "ingenieria",
+   "relation": "directo",
+   "majors": [
+    "Ingeniería Industrial",
+    "Ingeniería Mecánica y en Sistemas Energéticos",
+    "Ingeniería Mecatrónica",
+    "Ingeniería Civil"
+   ],
+   "es8": "Engineering, manufacturing, construction [ES8 Study field 12]",
+   "countries": [
+    {
+     "country": "AT",
+     "happy": 65.0,
+     "unhappy": 12.9,
+     "n": 4683,
+     "counts": [
+      991,
+      2051,
+      1035,
+      488,
+      118
+     ]
+    },
+    {
+     "country": "AZ",
+     "happy": 61.5,
+     "unhappy": 5.9,
+     "n": 456,
+     "counts": [
+      122,
+      158,
+      149,
+      20,
+      7
+     ]
+    },
+    {
+     "country": "CZ",
+     "happy": 53.6,
+     "unhappy": 18.8,
+     "n": 1477,
+     "counts": [
+      208,
+      583,
+      407,
+      215,
+      64
+     ]
+    },
+    {
+     "country": "DK",
+     "happy": 69.5,
+     "unhappy": 9.2,
+     "n": 1830,
+     "counts": [
+      383,
+      888,
+      390,
+      130,
+      39
+     ]
+    },
+    {
+     "country": "EE",
+     "happy": 66.5,
+     "unhappy": 8.7,
+     "n": 496,
+     "counts": [
+      87,
+      243,
+      123,
+      34,
+      9
+     ]
+    },
+    {
+     "country": "FI",
+     "happy": 57.9,
+     "unhappy": 17.3,
+     "n": 959,
+     "counts": [
+      131,
+      424,
+      238,
+      137,
+      29
+     ]
+    },
+    {
+     "country": "GE",
+     "happy": 45.1,
+     "unhappy": 24.2,
+     "n": 297,
+     "counts": [
+      54,
+      80,
+      91,
+      38,
+      34
+     ]
+    },
+    {
+     "country": "HR",
+     "happy": 56.5,
+     "unhappy": 16.3,
+     "n": 1193,
+     "counts": [
+      204,
+      470,
+      324,
+      152,
+      43
+     ]
+    },
+    {
+     "country": "HU",
+     "happy": 44.9,
+     "unhappy": 23.5,
+     "n": 1486,
+     "counts": [
+      194,
+      475,
+      468,
+      250,
+      99
+     ]
+    },
+    {
+     "country": "IE",
+     "happy": 57.8,
+     "unhappy": 16.6,
+     "n": 1783,
+     "counts": [
+      254,
+      777,
+      457,
+      233,
+      62
+     ]
+    },
+    {
+     "country": "IS",
+     "happy": 61.9,
+     "unhappy": 11.0,
+     "n": 308,
+     "counts": [
+      64,
+      126,
+      84,
+      24,
+      10
+     ]
+    },
+    {
+     "country": "LT",
+     "happy": 54.8,
+     "unhappy": 16.8,
+     "n": 220,
+     "counts": [
+      30,
+      90,
+      63,
+      24,
+      13
+     ]
+    },
+    {
+     "country": "LV",
+     "happy": 51.7,
+     "unhappy": 12.9,
+     "n": 269,
+     "counts": [
+      34,
+      105,
+      95,
+      31,
+      4
+     ]
+    },
+    {
+     "country": "MT",
+     "happy": 64.9,
+     "unhappy": 7.3,
+     "n": 42,
+     "counts": [
+      11,
+      16,
+      12,
+      2,
+      1
+     ]
+    },
+    {
+     "country": "NL",
+     "happy": 56.8,
+     "unhappy": 13.9,
+     "n": 684,
+     "counts": [
+      64,
+      325,
+      200,
+      73,
+      22
+     ]
+    },
+    {
+     "country": "NO",
+     "happy": 68.8,
+     "unhappy": 8.4,
+     "n": 739,
+     "counts": [
+      145,
+      364,
+      168,
+      51,
+      11
+     ]
+    },
+    {
+     "country": "PL",
+     "happy": 42.6,
+     "unhappy": 25.8,
+     "n": 1370,
+     "counts": [
+      128,
+      455,
+      433,
+      256,
+      98
+     ]
+    },
+    {
+     "country": "PT",
+     "happy": 47.5,
+     "unhappy": 18.8,
+     "n": 1844,
+     "counts": [
+      106,
+      772,
+      620,
+      270,
+      76
+     ]
+    },
+    {
+     "country": "RO",
+     "happy": 54.8,
+     "unhappy": 13.3,
+     "n": 2740,
+     "counts": [
+      504,
+      997,
+      874,
+      268,
+      97
+     ]
+    },
+    {
+     "country": "SE",
+     "happy": 49.6,
+     "unhappy": 17.1,
+     "n": 1115,
+     "counts": [
+      85,
+      469,
+      371,
+      170,
+      20
+     ]
+    },
+    {
+     "country": "SK",
+     "happy": 55.6,
+     "unhappy": 14.1,
+     "n": 721,
+     "counts": [
+      107,
+      293,
+      219,
+      78,
+      24
+     ]
+    }
+   ]
+  },
+  "tic": {
+   "label": "Tecnologías de la información y la comunicación (TIC)",
+   "chip": "TIC",
+   "faculty": "ingenieria",
+   "relation": "directo",
+   "majors": [
+    "Ingeniería Cibernética (IA, Ciberseguridad, Ciencia de Datos)"
+   ],
+   "es8": "ICT [ES8 Study field 11]",
+   "countries": [
+    {
+     "country": "AT",
+     "happy": 67.0,
+     "unhappy": 11.9,
+     "n": 3138,
+     "counts": [
+      716,
+      1388,
+      660,
+      301,
+      73
+     ]
+    },
+    {
+     "country": "AZ",
+     "happy": 62.4,
+     "unhappy": 13.9,
+     "n": 104,
+     "counts": [
+      27,
+      38,
+      25,
+      12,
+      2
+     ]
+    },
+    {
+     "country": "CZ",
+     "happy": 55.7,
+     "unhappy": 18.1,
+     "n": 1070,
+     "counts": [
+      166,
+      430,
+      280,
+      157,
+      37
+     ]
+    },
+    {
+     "country": "DK",
+     "happy": 63.3,
+     "unhappy": 15.0,
+     "n": 725,
+     "counts": [
+      122,
+      337,
+      157,
+      80,
+      29
+     ]
+    },
+    {
+     "country": "EE",
+     "happy": 61.7,
+     "unhappy": 9.1,
+     "n": 382,
+     "counts": [
+      63,
+      172,
+      112,
+      30,
+      5
+     ]
+    },
+    {
+     "country": "FI",
+     "happy": 54.5,
+     "unhappy": 19.3,
+     "n": 713,
+     "counts": [
+      87,
+      302,
+      186,
+      106,
+      32
+     ]
+    },
+    {
+     "country": "GE",
+     "happy": 45.4,
+     "unhappy": 24.2,
+     "n": 227,
+     "counts": [
+      46,
+      57,
+      69,
+      38,
+      17
+     ]
+    },
+    {
+     "country": "HR",
+     "happy": 56.5,
+     "unhappy": 14.5,
+     "n": 558,
+     "counts": [
+      104,
+      211,
+      162,
+      60,
+      21
+     ]
+    },
+    {
+     "country": "HU",
+     "happy": 43.9,
+     "unhappy": 25.5,
+     "n": 1296,
+     "counts": [
+      189,
+      380,
+      396,
+      227,
+      104
+     ]
+    },
+    {
+     "country": "IE",
+     "happy": 55.6,
+     "unhappy": 14.9,
+     "n": 1732,
+     "counts": [
+      241,
+      723,
+      511,
+      197,
+      60
+     ]
+    },
+    {
+     "country": "IS",
+     "happy": 54.8,
+     "unhappy": 19.4,
+     "n": 172,
+     "counts": [
+      33,
+      61,
+      44,
+      23,
+      11
+     ]
+    },
+    {
+     "country": "LT",
+     "happy": 43.9,
+     "unhappy": 19.2,
+     "n": 119,
+     "counts": [
+      7,
+      45,
+      44,
+      19,
+      4
+     ]
+    },
+    {
+     "country": "LV",
+     "happy": 46.0,
+     "unhappy": 25.5,
+     "n": 212,
+     "counts": [
+      14,
+      84,
+      60,
+      40,
+      14
+     ]
+    },
+    {
+     "country": "MT",
+     "happy": 54.2,
+     "unhappy": 11.4,
+     "n": 68,
+     "counts": [
+      15,
+      22,
+      23,
+      7,
+      1
+     ]
+    },
+    {
+     "country": "NL",
+     "happy": 51.4,
+     "unhappy": 19.2,
+     "n": 418,
+     "counts": [
+      29,
+      186,
+      123,
+      70,
+      10
+     ]
+    },
+    {
+     "country": "NO",
+     "happy": 69.2,
+     "unhappy": 7.7,
+     "n": 393,
+     "counts": [
+      59,
+      213,
+      91,
+      26,
+      4
+     ]
+    },
+    {
+     "country": "PL",
+     "happy": 41.7,
+     "unhappy": 30.2,
+     "n": 630,
+     "counts": [
+      63,
+      200,
+      177,
+      143,
+      47
+     ]
+    },
+    {
+     "country": "PT",
+     "happy": 45.2,
+     "unhappy": 21.6,
+     "n": 308,
+     "counts": [
+      11,
+      129,
+      102,
+      52,
+      14
+     ]
+    },
+    {
+     "country": "RO",
+     "happy": 53.9,
+     "unhappy": 15.1,
+     "n": 940,
+     "counts": [
+      131,
+      376,
+      291,
+      98,
+      44
+     ]
+    },
+    {
+     "country": "SE",
+     "happy": 43.0,
+     "unhappy": 19.1,
+     "n": 379,
+     "counts": [
+      35,
+      128,
+      143,
+      64,
+      9
+     ]
+    },
+    {
+     "country": "SK",
+     "happy": 55.5,
+     "unhappy": 17.4,
+     "n": 412,
+     "counts": [
+      53,
+      176,
+      111,
+      57,
+      15
+     ]
+    }
+   ]
+  },
+  "derecho": {
+   "label": "Derecho",
+   "chip": "Derecho",
+   "faculty": "derecho",
+   "relation": "directo",
+   "majors": [
+    "Derecho"
+   ],
+   "es8": "Law [ES8 Study field 9]",
+   "countries": [
+    {
+     "country": "AT",
+     "happy": 63.9,
+     "unhappy": 10.9,
+     "n": 3073,
+     "counts": [
+      624,
+      1340,
+      774,
+      256,
+      79
+     ]
+    },
+    {
+     "country": "AZ",
+     "happy": 81.7,
+     "unhappy": 2.5,
+     "n": 33,
+     "counts": [
+      16,
+      11,
+      5,
+      1,
+      0
+     ]
+    },
+    {
+     "country": "CZ",
+     "happy": 61.0,
+     "unhappy": 14.2,
+     "n": 536,
+     "counts": [
+      95,
+      232,
+      133,
+      62,
+      14
+     ]
+    },
+    {
+     "country": "DK",
+     "happy": 75.6,
+     "unhappy": 8.8,
+     "n": 254,
+     "counts": [
+      76,
+      116,
+      40,
+      21,
+      1
+     ]
+    },
+    {
+     "country": "EE",
+     "happy": 62.0,
+     "unhappy": 9.6,
+     "n": 106,
+     "counts": [
+      11,
+      55,
+      30,
+      10,
+      0
+     ]
+    },
+    {
+     "country": "FI",
+     "happy": 64.2,
+     "unhappy": 10.3,
+     "n": 102,
+     "counts": [
+      25,
+      40,
+      26,
+      3,
+      8
+     ]
+    },
+    {
+     "country": "GE",
+     "happy": 42.4,
+     "unhappy": 21.8,
+     "n": 492,
+     "counts": [
+      123,
+      86,
+      176,
+      55,
+      52
+     ]
+    },
+    {
+     "country": "HR",
+     "happy": 51.6,
+     "unhappy": 15.7,
+     "n": 535,
+     "counts": [
+      75,
+      201,
+      175,
+      60,
+      24
+     ]
+    },
+    {
+     "country": "HU",
+     "happy": 51.2,
+     "unhappy": 14.8,
+     "n": 846,
+     "counts": [
+      141,
+      292,
+      288,
+      92,
+      33
+     ]
+    },
+    {
+     "country": "IE",
+     "happy": 50.7,
+     "unhappy": 14.9,
+     "n": 682,
+     "counts": [
+      101,
+      245,
+      234,
+      78,
+      24
+     ]
+    },
+    {
+     "country": "IS",
+     "happy": 68.1,
+     "unhappy": 7.8,
+     "n": 244,
+     "counts": [
+      60,
+      106,
+      59,
+      13,
+      6
+     ]
+    },
+    {
+     "country": "LT",
+     "happy": 58.3,
+     "unhappy": 11.2,
+     "n": 134,
+     "counts": [
+      34,
+      44,
+      41,
+      12,
+      3
+     ]
+    },
+    {
+     "country": "LV",
+     "happy": 49.1,
+     "unhappy": 13.1,
+     "n": 151,
+     "counts": [
+      20,
+      54,
+      57,
+      15,
+      5
+     ]
+    },
+    {
+     "country": "MT",
+     "happy": 46.7,
+     "unhappy": 23.6,
+     "n": 58,
+     "counts": [
+      9,
+      18,
+      17,
+      8,
+      6
+     ]
+    },
+    {
+     "country": "NL",
+     "happy": 55.9,
+     "unhappy": 16.2,
+     "n": 515,
+     "counts": [
+      55,
+      233,
+      143,
+      73,
+      11
+     ]
+    },
+    {
+     "country": "NO",
+     "happy": 69.7,
+     "unhappy": 9.0,
+     "n": 227,
+     "counts": [
+      34,
+      125,
+      48,
+      13,
+      7
+     ]
+    },
+    {
+     "country": "PL",
+     "happy": 52.8,
+     "unhappy": 21.8,
+     "n": 435,
+     "counts": [
+      69,
+      161,
+      110,
+      72,
+      23
+     ]
+    },
+    {
+     "country": "PT",
+     "happy": 43.6,
+     "unhappy": 19.2,
+     "n": 417,
+     "counts": [
+      26,
+      156,
+      155,
+      66,
+      14
+     ]
+    },
+    {
+     "country": "RO",
+     "happy": 56.3,
+     "unhappy": 11.2,
+     "n": 701,
+     "counts": [
+      156,
+      239,
+      227,
+      64,
+      15
+     ]
+    },
+    {
+     "country": "SE",
+     "happy": 44.4,
+     "unhappy": 12.4,
+     "n": 227,
+     "counts": [
+      18,
+      83,
+      98,
+      27,
+      1
+     ]
+    },
+    {
+     "country": "SK",
+     "happy": 59.2,
+     "unhappy": 12.5,
+     "n": 314,
+     "counts": [
+      75,
+      111,
+      89,
+      34,
+      5
+     ]
+    }
+   ]
+  },
+  "negocios": {
+   "label": "Negocios y administración",
+   "chip": "Negocios",
+   "faculty": "negocios",
+   "relation": "directo",
+   "majors": [
+    "Mercadotecnia",
+    "Contaduría y Finanzas",
+    "Administración e Innovación de Negocios",
+    "Comercio y Negocios Internacionales",
+    "Transformación Digital"
+   ],
+   "es8": "Business and administration [ES8 Study field 8]",
+   "countries": [
+    {
+     "country": "AT",
+     "happy": 72.6,
+     "unhappy": 8.3,
+     "n": 5834,
+     "counts": [
+      1496,
+      2740,
+      1111,
+      370,
+      117
+     ]
+    },
+    {
+     "country": "AZ",
+     "happy": 64.8,
+     "unhappy": 7.6,
+     "n": 405,
+     "counts": [
+      128,
+      135,
+      112,
+      26,
+      4
+     ]
+    },
+    {
+     "country": "CZ",
+     "happy": 61.0,
+     "unhappy": 12.7,
+     "n": 2614,
+     "counts": [
+      440,
+      1154,
+      688,
+      253,
+      79
+     ]
+    },
+    {
+     "country": "DK",
+     "happy": 68.1,
+     "unhappy": 7.9,
+     "n": 2200,
+     "counts": [
+      454,
+      1042,
+      531,
+      123,
+      50
+     ]
+    },
+    {
+     "country": "EE",
+     "happy": 71.3,
+     "unhappy": 6.7,
+     "n": 458,
+     "counts": [
+      97,
+      229,
+      101,
+      23,
+      8
+     ]
+    },
+    {
+     "country": "FI",
+     "happy": 62.2,
+     "unhappy": 10.7,
+     "n": 1176,
+     "counts": [
+      177,
+      554,
+      319,
+      103,
+      23
+     ]
+    },
+    {
+     "country": "GE",
+     "happy": 47.5,
+     "unhappy": 17.9,
+     "n": 724,
+     "counts": [
+      153,
+      191,
+      251,
+      63,
+      66
+     ]
+    },
+    {
+     "country": "HR",
+     "happy": 70.5,
+     "unhappy": 8.0,
+     "n": 1754,
+     "counts": [
+      504,
+      733,
+      376,
+      118,
+      23
+     ]
+    },
+    {
+     "country": "HU",
+     "happy": 55.5,
+     "unhappy": 14.7,
+     "n": 2877,
+     "counts": [
+      479,
+      1117,
+      856,
+      341,
+      84
+     ]
+    },
+    {
+     "country": "IE",
+     "happy": 60.9,
+     "unhappy": 12.2,
+     "n": 3207,
+     "counts": [
+      612,
+      1340,
+      866,
+      320,
+      69
+     ]
+    },
+    {
+     "country": "IS",
+     "happy": 67.2,
+     "unhappy": 8.4,
+     "n": 567,
+     "counts": [
+      117,
+      264,
+      138,
+      39,
+      9
+     ]
+    },
+    {
+     "country": "LT",
+     "happy": 61.1,
+     "unhappy": 11.5,
+     "n": 358,
+     "counts": [
+      65,
+      154,
+      98,
+      29,
+      12
+     ]
+    },
+    {
+     "country": "LV",
+     "happy": 57.5,
+     "unhappy": 8.4,
+     "n": 550,
+     "counts": [
+      85,
+      232,
+      187,
+      36,
+      10
+     ]
+    },
+    {
+     "country": "MT",
+     "happy": 62.1,
+     "unhappy": 8.5,
+     "n": 222,
+     "counts": [
+      43,
+      95,
+      65,
+      13,
+      6
+     ]
+    },
+    {
+     "country": "NL",
+     "happy": 56.4,
+     "unhappy": 12.6,
+     "n": 1750,
+     "counts": [
+      177,
+      811,
+      541,
+      181,
+      40
+     ]
+    },
+    {
+     "country": "NO",
+     "happy": 72.2,
+     "unhappy": 7.1,
+     "n": 1349,
+     "counts": [
+      262,
+      713,
+      277,
+      83,
+      14
+     ]
+    },
+    {
+     "country": "PL",
+     "happy": 49.9,
+     "unhappy": 21.3,
+     "n": 2170,
+     "counts": [
+      322,
+      761,
+      626,
+      362,
+      99
+     ]
+    },
+    {
+     "country": "PT",
+     "happy": 52.1,
+     "unhappy": 11.7,
+     "n": 1658,
+     "counts": [
+      159,
+      705,
+      601,
+      147,
+      46
+     ]
+    },
+    {
+     "country": "RO",
+     "happy": 59.8,
+     "unhappy": 10.6,
+     "n": 1909,
+     "counts": [
+      439,
+      702,
+      567,
+      156,
+      45
+     ]
+    },
+    {
+     "country": "SE",
+     "happy": 46.6,
+     "unhappy": 18.3,
+     "n": 558,
+     "counts": [
+      55,
+      205,
+      196,
+      82,
+      20
+     ]
+    },
+    {
+     "country": "SK",
+     "happy": 60.0,
+     "unhappy": 10.7,
+     "n": 998,
+     "counts": [
+      164,
+      434,
+      293,
+      76,
+      31
+     ]
+    }
+   ]
+  }
+ }
+}

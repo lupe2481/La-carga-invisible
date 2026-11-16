@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "title": "La carga invisible",
+    "institution": "Universidad La Salle México",
+    "source": "Encuesta estudiantil propia (Microsoft Forms), 14 de octubre de 2026 en adelante. Archivo: Carga académica y malestar emocional en estudiantes de La Salle.xlsx",
+    "n": 102,
+    "faculties": 6,
+    "fieldwork": "Cuestionario en línea, oct. 2026"
+  },
+  "distress": {
+    "question": "¿Cuál de las siguientes formas de malestar emocional has experimentado más en relación con tus responsabilidades académicas?",
+    "categories": [
+      { "key": "estres", "label": "Estrés", "count": 40 },
+      { "key": "ansiedad", "label": "Ansiedad", "count": 33 },
+      { "key": "depresivos", "label": "Síntomas depresivos", "count": 10 },
+      { "key": "sin", "label": "Sin malestar", "count": 16 },
+      { "key": "nr", "label": "Sin respuesta válida", "count": 3 }
+    ]
+  },
+  "faculties": [
+    { "key": "famadyc", "label": "Arq., Diseño y Comunicación", "full": "Facultad Mexicana de Arquitectura, Diseño y Comunicación (FAMADyC)", "short": "FAMADyC", "n": 27, "estres": 13, "ansiedad": 9, "depresivos": 3, "sin": 2, "nr": 0 },
+    { "key": "humanidades", "label": "Humanidades y C. Sociales", "full": "Facultad de Humanidades y Ciencias Sociales", "short": "Humanidades", "n": 10, "estres": 3, "ansiedad": 5, "depresivos": 1, "sin": 0, "nr": 1 },
+    { "key": "quimica", "label": "Ciencias Químicas", "full": "Facultad de Ciencias Químicas", "short": "Química", "n": 17, "estres": 7, "ansiedad": 6, "depresivos": 2, "sin": 1, "nr": 1 },
+    { "key": "ingenieria", "label": "Ingeniería", "full": "Facultad de Ingeniería", "short": "Ingeniería", "n": 26, "estres": 12, "ansiedad": 6, "depresivos": 4, "sin": 4, "nr": 0 },
+    { "key": "derecho", "label": "Derecho", "full": "Facultad de Derecho", "short": "Derecho", "n": 7, "estres": 2, "ansiedad": 2, "depresivos": 0, "sin": 2, "nr": 1 },
+    { "key": "negocios", "label": "Negocios", "full": "Facultad de Negocios", "short": "Negocios", "n": 15, "estres": 3, "ansiedad": 5, "depresivos": 0, "sin": 7, "nr": 0 }
+  ],
+  "load": {
+    "question": "¿Cómo consideras tu carga académica durante este semestre?",
+    "n": 18,
+    "levels": [
+      { "key": "baja", "label": "Baja", "count": 3 },
+      { "key": "moderada", "label": "Moderada", "count": 9 },
+      { "key": "alta", "label": "Alta", "count": 4 },
+      { "key": "muyalta", "label": "Muy alta", "count": 2 }
+    ],
+    "note": "16 de estas 18 respuestas son de estudiantes que no reportaron malestar."
+  },
+  "distress2w": {
+    "question": "Durante las últimas dos semanas, ¿con qué frecuencia has experimentado malestar emocional relacionado con tus responsabilidades académicas?",
+    "n": 18,
+    "scale": ["Nunca", "Casi nunca", "A veces", "Frecuentemente", "Siempre"],
+    "counts": [4, 6, 5, 2, 1]
+  },
+  "hours": { "n": 12, "median": 5, "min": 0, "max": 20, "values": [0, 12, 4, 7, 3, 20, 5, 5, 2, 6, 6, 4] },
+  "frequency": {
+    "scale": ["Nunca", "Casi nunca", "A veces", "Frecuentemente", "Siempre"],
+    "items": [
+      { "key": "estres", "label": "Estrés", "n": 40, "counts": [1, 2, 12, 19, 6] },
+      { "key": "abrumado", "label": "Abrumado/a", "n": 40, "counts": [0, 5, 11, 17, 7] },
+      { "key": "preocupacion", "label": "Preocupación", "n": 33, "counts": [0, 1, 9, 12, 11] },
+      { "key": "desconectar", "label": "No poder desconectar", "n": 33, "counts": [1, 2, 10, 8, 12] },
+      { "key": "desanimo", "label": "Desánimo", "n": 12, "counts": [0, 1, 2, 4, 5] },
+      { "key": "motivacion", "label": "Poca motivación", "n": 12, "counts": [0, 1, 2, 7, 2] }
+    ]
+  },
+  "gender": [
+    { "label": "Mujeres", "count": 60 },
+    { "label": "Hombres", "count": 37 },
+    { "label": "No binarie", "count": 3 },
+    { "label": "Prefieren no decir", "count": 2 }
+  ],
+  "age": [
+    { "label": "≤17", "count": 1 },
+    { "label": "18–20", "count": 38 },
+    { "label": "21–23", "count": 56 },
+    { "label": "24–26", "count": 5 },
+    { "label": "27+", "count": 2 }
+  ]
+}
